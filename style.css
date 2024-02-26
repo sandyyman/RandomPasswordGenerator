@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d08a75;
+}
+
+.inputBox{
+    position: relative;
+    width: 450px;
+
+}
+
+.inputBox h2{
+    font-size: 28px;
+    color: black;
+}
+
+span{
+    color: #ebeaea;
+    text-shadow: 1px 1px #141850;
+}
+
+::placeholder{
+    color:#f5aca2;
+}
+
+input{
+        background-color: transparent;
+        outline: none;
+        padding: 0px 20px;
+        font-size: 15px;
+}
+.inputBox input{
+    position: relative;
+    width:100px;
+    height:6px;
+    border:none;
+    margin:15px 0 10px;
+    
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color:#141850;
+
+    box-shadow: -4px -4px 10px rgba(250, 229, 223, 1), inset 4px 4px 10px rgba(0,0,0,0.07),inset 4px 4px 10px rgba(0, 0, 0, 0.07);
+
+}
+
+input::placeholder{
+    letter-spacing: 0;
+}
+
+button{
+    position: relative;
+    cursor: pointer;
+    color:#fae5df ;
+    background-color: #303179;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+#btn:active{
+    background-color: #141850;
+    transform: scale(.98);
+
+}
